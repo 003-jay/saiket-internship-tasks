@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Application</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="quiz-wrapper">
+            <!-- Quiz Section -->
+            <div id="quiz-section" class="quiz-section">
+                <div class="question-info">
+                    <span class="question-counter">Question <span id="current-question">1</span> of <span id="total-questions">3</span></span>
+                    <div class="progress-bar">
+                        <div id="progress-fill" class="progress-fill"></div>
+                    </div>
+                </div>
+
+                <div id="question-container" class="question-container">
+                    <h2 id="question-text"></h2>
+                    <div id="options-container" class="options-container"></div>
+                </div>
+
+                <div class="button-group">
+                    <button id="next-btn" class="btn btn-next" disabled>Next Question</button>
+                </div>
+
+                <div id="error-message" class="error-message"></div>
+            </div>
+
+            <!-- Results Section -->
+            <div id="results-section" class="results-section hidden">
+                <div class="results-content">
+                    <h2>Quiz Complete!</h2>
+                    <div class="score-display">
+                        <p class="score-text">Your Score</p>
+                        <p class="score-number"><span id="final-score">0</span>/<span id="max-score">0</span></p>
+                    </div>
+                    <p class="percentage-text">You got <span id="percentage">0</span>% correct!</p>
+                    <button id="restart-btn" class="btn btn-restart">Retake Quiz</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
