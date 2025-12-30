@@ -2,6 +2,8 @@
 
 A simple product card component displaying a Premium Watch with pricing and purchase options.
 
+## 🔗 [View Live Demo](https://003-jay.github.io/saiket-internship-tasks/Task2/index.html)
+
 ## Features
 
 - Product image display

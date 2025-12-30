@@ -2,7 +2,7 @@
 
 A simple blog application built with HTML.
 
-## Files
+## 🔗 [View Live Demo](https://003-jay.github.io/saiket-internship-tasks/Task1/index.html)
 
 - `Blog.html` - Main blog page
 
