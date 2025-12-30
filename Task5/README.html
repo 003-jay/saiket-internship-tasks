@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List App - README</title>
+    <style>
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.6; max-width: 900px; margin: 0 auto; padding: 20px; background-color: #f5f5f5; color: #333; }
+        h1 { color: #2c3e50; border-bottom: 3px solid #3498db; padding-bottom: 10px; }
+        h2 { color: #34495e; margin-top: 30px; }
+        code { background-color: #ecf0f1; padding: 2px 6px; border-radius: 3px; font-family: 'Courier New', monospace; }
+        pre { background-color: #2c3e50; color: #ecf0f1; padding: 15px; border-radius: 5px; overflow-x: auto; }
+        pre code { background: none; padding: 0; color: #ecf0f1; }
+        ul { margin: 10px 0; padding-left: 25px; }
+        li { margin: 8px 0; }
+        strong { color: #2c3e50; }
+        a { color: #3498db; text-decoration: none; }
+        a:hover { text-decoration: underline; }
+        .container { background-color: white; padding: 30px; border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,0.1); }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>To-Do List App</h1>
+        <p>A simple, elegant web-based to-do list application for managing your daily tasks.</p>
+        
+        <h2>Features</h2>
+        <ul>
+            <li><strong>Add Tasks</strong>: Quickly add new tasks with the input field</li>
+            <li><strong>Complete Tasks</strong>: Mark tasks as completed by checking them off</li>
+            <li><strong>Delete Tasks</strong>: Remove tasks from your list</li>
+            <li><strong>Filter Tasks</strong>: View all tasks, only active tasks, or only completed tasks</li>
+            <li><strong>Clear Completed</strong>: Remove all completed tasks at once</li>
+            <li><strong>Task Counter</strong>: Keep track of how many tasks remain</li>
+            <li><strong>Local Storage</strong>: Your tasks are automatically saved and persisted in your browser</li>
+            <li><strong>Keyboard Support</strong>: Press Enter to add a task quickly</li>
+            <li><strong>Responsive Design</strong>: Works on desktop and mobile devices</li>
+        </ul>
+        
+        <h2>File Structure</h2>
+        <pre><code>Task5/
+├── index.html       # Main HTML structure
+├── script.js        # JavaScript functionality and logic
+├── style.css        # Styling and animations
+└── README.md        # This file</code></pre>
+        
+        <h2>Getting Started</h2>
+        <ol>
+            <li>Open <code>index.html</code> in your web browser</li>
+            <li>Type a task in the input field</li>
+            <li>Click "Add Task" or press Enter to add the task</li>
+            <li>Use the filter buttons to view different task statuses</li>
+            <li>Check off tasks to mark them as completed</li>
+            <li>Click "Clear Completed" to remove finished tasks</li>
+        </ol>
+        
+        <h2>Technologies Used</h2>
+        <ul>
+            <li><strong>HTML5</strong>: Structure and semantic markup</li>
+            <li><strong>CSS3</strong>: Styling with gradients, animations, and responsive design</li>
+            <li><strong>JavaScript (ES6)</strong>: Object-oriented programming with the TodoApp class</li>
+        </ul>
+        
+        <h2>How It Works</h2>
+        <p>The app uses a <code>TodoApp</code> class to manage all functionality:</p>
+        <ul>
+            <li><strong>Local Storage</strong>: Tasks are saved in your browser's local storage, so they persist between sessions</li>
+            <li><strong>Dynamic Rendering</strong>: The list updates automatically when tasks are added, completed, or deleted</li>
+            <li><strong>Filter System</strong>: Filter buttons dynamically show/hide tasks based on their status</li>
+        </ul>
+    </div>
+</body>
+</html>
